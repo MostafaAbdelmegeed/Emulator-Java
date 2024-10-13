@@ -5,13 +5,13 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class ControlUnit extends JPanel {
-    private JSpinner qx;
-    private JSpinner tx;
-    private JSpinner ty;
-    private JSpinner tz;
-    private JSpinner qy;
-    private JSpinner qz;
-    private JSpinner qo;
+    private final JSpinner qx;
+    private final JSpinner tx;
+    private final JSpinner ty;
+    private final JSpinner tz;
+    private final JSpinner qy;
+    private final JSpinner qz;
+    private final JSpinner qo;
     Double defaultValue = 0.0;
     Double defaultStep = 1.0;
     Double defaultLowerBoundary = -1000.0;

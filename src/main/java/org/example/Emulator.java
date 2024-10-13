@@ -103,7 +103,7 @@ public class Emulator {
         try {
             this.clientSocket = clientSocket;
             BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true);
+            writer = new PrintWriter(clientSocket.getOutputStream(), true);
             String message;
             Set<String> requiredKeys = Set.of("SurgicalTools", "Anatomy");  // Define required keys
 
